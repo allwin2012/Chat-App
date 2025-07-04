@@ -25,7 +25,7 @@ const Navigation = () => {
         to="/" 
         className="text-xl font-bold text-blue-500 bg-gradient-to-r from-blue-500 to-blue-600 bg-clip-text text-transparent hover:from-blue-600 hover:to-blue-700 transition-all duration-300"
       >
-        MochaChat
+        Chatoo
       </Link>
       
       <div className="flex items-center space-x-1 md:space-x-2">
