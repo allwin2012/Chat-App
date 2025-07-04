@@ -16,11 +16,11 @@ const VideoCallPage = () => {
   
   // Set document title
   useEffect(() => {
-    document.title = user ? `Video Call with ${user.name} | MochaChat` : 'Video Call | MochaChat';
+    document.title = user ? `Video Call with ${user.name} | Chat` : 'Video Call | Chat';
     
     // Cleanup when leaving page
     return () => {
-      document.title = 'MochaChat';
+      document.title = 'Chat';
     };
   }, [user]);
   

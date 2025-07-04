@@ -16,11 +16,11 @@ const VoiceCallPage = () => {
   
   // Set document title
   useEffect(() => {
-    document.title = user ? `Voice Call with ${user.name} | MochaChat` : 'Voice Call | MochaChat';
+    document.title = user ? `Voice Call with ${user.name} |Chat` : 'Voice Call | Chat';
     
     // Cleanup when leaving page
     return () => {
-      document.title = 'MochaChat';
+      document.title = 'Chat';
     };
   }, [user]);
   

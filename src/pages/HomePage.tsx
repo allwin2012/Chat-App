@@ -5,7 +5,7 @@ import Navigation from '../components/Navigation';
 const HomePage = () => {
   // Set document title
   useEffect(() => {
-    document.title = 'MochaChat';
+    document.title = 'Chat';
   }, []);
   
   return (

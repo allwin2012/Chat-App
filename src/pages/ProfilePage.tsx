@@ -15,7 +15,7 @@ const ProfilePage = () => {
   
   // Set document title
   useEffect(() => {
-    document.title = 'Your Profile | MochaChat';
+    document.title = 'Your Profile | Chat';
   }, []);
   
   const handleSaveProfile = () => {

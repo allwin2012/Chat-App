@@ -32,9 +32,9 @@ const ChatPage = () => {
   }, [user, navigate]);
 
   useEffect(() => {
-    document.title = user ? `Chat with ${user.name} | MochaChat` : 'MochaChat';
+    document.title = user ? `Chat with ${user.name} | Chat` : 'Chat';
     return () => {
-      document.title = 'MochaChat';
+      document.title = 'Chat';
     };
   }, [user]);
 
