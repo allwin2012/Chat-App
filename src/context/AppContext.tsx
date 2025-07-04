@@ -1,5 +1,5 @@
 import { createContext, useContext, useState, useEffect, ReactNode } from 'react';
-import { User, Chat, Message, initialChats, currentUser, users, formatMessageTime } from '../data/mockData';
+import { User, Chat, Message, initialChats, currentUser, users} from '../data/mockData';
 
 interface AppContextType {
   chats: Chat[];

@@ -1,11 +1,11 @@
 import { useState } from 'react';
-import { Link, useNavigate } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 import { useApp } from '../context/AppContext';
 import { sortChatsByRecent, getUserById, formatMessageDate } from '../data/mockData';
-import { EllipsisVertical, Search } from 'lucide-react';
+import { Search } from 'lucide-react';
 
 export const ChatList = () => {
-  const { chats, users, isDarkMode } = useApp();
+  const { chats, } = useApp();
   const [searchTerm, setSearchTerm] = useState('');
   const navigate = useNavigate();
   
